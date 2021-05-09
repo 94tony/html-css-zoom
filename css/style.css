@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul{
+list-style: none;
+}
+.container{
+  flex-grow: 1;
+    
+    background-color: green;
+    
+    
+}
+
+.colonna{
+    display:  flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 50px 10px ;
+    flex-grow: 1;
+}
+
+.container .colonna div{ 
+    
+    width: 150px;
+    height: 110px;
+    margin: 15px 3px;
+  
+    
+
+}
+.nav-superiore{
+display: flex;
+justify-content: flex-end;
+}
+.icon-a{
+    text-align: center;
+    color: yellow;
+    font-size: 16px;
+    
+}
+.icon-ab{
+    text-align: center;
+    color: yellow;
+    font-size: 16px;
+    margin-right: 5px;
+    
+}
+.nav-superiore ul{
+  background-color: rgb(15, 15, 15,0.5) ;
+  border-radius: 7px;
+  margin-top: 5px;
+  padding: 3px;
+  margin:5px 5px;
+    
+}
+
+
+
+.colonna>div {
+    background-image: url(../img/anziano.jpg);
+    width: 150px;
+    height: 110px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+    display: flex;
+    align-items: flex-end;
+    color: black;
+    
+}
+.colonna>div>span {
+  background-color: rgb(15, 15, 15,0.5) ;
+}
+
+nav{
+    border: 1px rebeccapurple solid;
+   
+    flex-grow: 1;
+    min-width: 100px;
+    height: 80px;
+    background-color: coral;
+    display:  flex;
+    justify-content:space-between;
+    align-items: center;
+    font-size: 15px;
+    padding-top: 8px;
+}
+
+ul{
+    display: flex;
+    
+}
+nav li{
+    padding: 28px 10px;
+}
+
+.ends{
+    background-color: rgb(252, 143, 103);
+    
+    height: 110%;
+    margin-bottom: 5px;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    
+
+}
+
+
+ul>li{
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+.icon{
+    font-size: 18px;
+    text-align: center;
+    color: yellow;
+}
+
+.circ{
+font-size: 30px;
+padding-top: 20px;
+}
